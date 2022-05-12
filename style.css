@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;900&display=swap');
+
+
+header{
+    display:flex;
+    box-shadow: 0 1px 1px #ccc;
+    justify-content: space-between;
+    background-color: #fff;
+}
+  
+body{ 
+    margin:0px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #efefef;
+}
+
+#left-section-header{
+    margin-left:100px;
+    display:flex;
+    width:25%;
+    justify-content: space-between;
+    align-items:center;
+}
+
+#logo{
+    font-size:35px;
+    font-weight: 800;
+    color:#0084ff
+}
+
+#story{
+    margin:0;
+    -o-object-fit:contain;
+    object-fit:contain;
+    font-family: 'Raleway', sans-serif;
+    font-size:1em;
+    font-weight: 500;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: .8;
+    letter-spacing: .9px;
+    color:#000;
+}
+
+#right-section-header{
+    margin-right:100px;
+    display:flex;
+    width: 35%;
+    justify-content: space-between;
+    align-items:center;
+}
+
+#cata{
+    font-size: 20px;
+    padding:5px
+}
+
+ul{
+    list-style-type: none;
+}
+
+.BlogNavigationLinks_EdyodaText_11wl2{
+    min-width:23em;
+    opacity: .6;
+    font-family:Raleway, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: .4px;
+    text-align: left;
+    color: rgba(0,0,0,.6);
+    margin-top: 0.5em;
+
+}
+
+.Button_Button_QI7b2{
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: .03em;
+    color: #fff;
+    background: linear-gradient(269deg,#0048ff,#0096ff);
+    border-radius: 25px;
+    padding:15px 24px;
+}
+
+main{
+    width: 70%;
+    margin :0px auto;
+    margin-top: 20px;
+}
+
+.latest-post{
+    text-align: left;
+    color: #000;
+    width: fit-content;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Raleway, sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1,25;
+    letter-spacing: -.6px;
+}
+
+#filter{
+    display: flex;
+    margin-top: 9px;
+    color: #0048ff;
+}
+
+#filter-button-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.filter-btn{
+    width:auto;
+    font-size: .75em;
+    color: #0084ff;
+    padding: 6px 16px;
+    border-radius: 15px;
+    border: 1px solid #0084ff;
+    margin: 7px;
+    cursor: pointer;
+}
+
+.filter-btn:hover{
+    color: #fff;
+    background: linear-gradient(269deg,#0048ff,#0096ff);
+}
+
+#filter-all-btn{
+    width:auto;
+    font-size: .75em;
+    color: #0084ff;
+    padding: 6px 16px;
+    border-radius: 15px;
+    border: 1px solid #0084ff;
+    margin: 7px;
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(269deg,#0048ff,#0096ff);
+}
+
+
+#blog-card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.blog-card{
+    width:calc(33% - 22px);
+    border: 1px solid black;
+    margin: 10px;
+    
+
+}
+
+.blog-image{
+    width: 100%;
+    height: 184px;
+}
+
+.blog-details{
+    padding: 12px;
+    background-color: #fff;
+}
+
+.Blog-title{
+    font-family: Raleway;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    margin: 0;
+}
+
+.Blog-author{
+    color: #0084ff;
+}
+.Blog-date{
+    color: #000;
+}
